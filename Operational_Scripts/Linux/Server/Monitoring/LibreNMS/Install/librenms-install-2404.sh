@@ -5,8 +5,8 @@
 #
 # Author        : John Harrison
 # Created       : 2026-01-10
-# Updated       : YYYY-MM-DD
-# Version       : 1.0.0
+# Updated       : 2026-01-13
+# Version       : 1.0.1
 # License       : MIT
 #
 # Organization  : PureTechHQ
@@ -16,8 +16,8 @@
 #
 # Changelog     :
 #   2026-01-10  1.0.0  - Initial release
+#   2026-01-13  1.0.1  - Fixed RRDCached configuration not persisting to config.php
 ################################################################################
-
 set -Eeuo pipefail
 IFS=$'\n\t'
 
